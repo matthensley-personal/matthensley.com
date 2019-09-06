@@ -28,20 +28,6 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [
-          {
-            resolve: "gatsby-remark-spotify",
-              options: {
-                width: 800,
-                height: 400,
-              }
-            }
-          ]
-        }
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
