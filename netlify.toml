@@ -1,6 +1,6 @@
 [build]
-  command = "yarn run build"
-  publish = "public"
+  command = "gatsby build"
+  publish = "/"
 
 [build.environment]
   NODE_VERSION = "8.9.0"
