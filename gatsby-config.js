@@ -23,6 +23,27 @@ module.exports = {
         name: `assets`,
       },
     },
+    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/albums`,
+      },
+    },
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-spotify",
+              options: {
+                width: 800,
+                height: 400,
+              }
+            }
+          ]
+        }
+    },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
