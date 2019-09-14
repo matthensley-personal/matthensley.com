@@ -5,49 +5,39 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import Image from "gatsby-image"
 
-class BlogIndex extends React.Component {
+class HomeIndex extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location}>
         <SEO title="All posts" />
-        <Bio />
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <article key={node.fields.slug}>
-              <header>
-                <h3
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                  }}
-                >
-                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                    {title}
-                  </Link>
-                </h3>
-                <small>{node.frontmatter.date}</small>
-              </header>
-              <section>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
-              </section>
-            </article>
-          )
-        })}
+        <Image
+          fixed={data.background.childImageSharp.fluid}
+          style={{
+            position: "absolute",
+            left: 0,
+            top: 0,
+            width: "100%",
+            height: "100%"
+          }}
+        />
+        <div style={{
+          position: "relative",
+          'z-index': 2,
+          color:"white",
+          "background-color":"rgba(0,0,0,.3)",
+          display:"inline-block"
+        }}><h1></h1></div>
       </Layout>
     )
   }
 }
 
-export default BlogIndex
+export default HomeIndex
 
 export const pageQuery = graphql`
   query {
@@ -56,18 +46,11 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            description
-          }
+    background: file(absolutePath: { regex: "/headshot2.jpg/" }) {
+      childImageSharp {
+        fluid(maxWidth: 2500) {
+          aspectRatio
+          ...GatsbyImageSharpFluid
         }
       }
     }

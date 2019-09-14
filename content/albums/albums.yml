@@ -1,6 +1,15 @@
 - artist: Kurt Vile
   album: Wakin on a Pretty Daze
-  spotify: spotify:album:2imxOfDIDk2voAYCZP88u2
+  spotify: https://open.spotify.com/embed/album/2imxOfDIDk2voAYCZP88u2
+  rank: '2'
+  external_image: https://media.pitchfork.com/photos/5929a0059d034d5c69bf25fe/1:1/w_320/69b2dbee.jpg
 - artist: Kevin Morby
   album: Singing Saw
-  spotify: spotify:album:1s8RmcZjTuvDt9eQ4MAKLI
+  spotify: https://open.spotify.com/embed/album/1s8RmcZjTuvDt9eQ4MAKLI
+  rank: '1'
+  external_image: https://media.pitchfork.com/photos/5929b46ac0084474cd0c228f/1:1/w_320/8ded819b.jpeg
+- artist: Appleseed Cast
+  album: The Fleeting Light of Impermanence
+  rank: '3'
+  external_image: https://media.pitchfork.com/photos/5d02b131b6e2e31127c9d3c9/1:1/w_320/TheFleetingLightofImpermanence_TheAppleseedCast.jpgKevin morbyKurt vileMiloJoe pugWar on drugsHiss golden messengerWilliam tylerTitus andronicusGodspeed
+  spotify: https://open.spotify.com/embed/track/0ZzrJ2P02L1bLp5CpjZEGo?si=fm-APLSPSlaXCcsOmfHlGA

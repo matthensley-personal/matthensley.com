@@ -26,7 +26,7 @@ class Layout extends React.Component {
             }}
             to={`/`}
           >
-            {title}
+            Matt Hensley
           </Link>
         </h1>
       )
@@ -56,11 +56,22 @@ class Layout extends React.Component {
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
-          maxWidth: rhythm(24),
+          maxWidth: rhythm(48),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
-        <header>{header}</header>
+        <header style={{
+          position: "relative",
+          "z-index": '2',
+          display: "inline-block",
+          "background-color": "rgba(0,0,0,.6)",
+          "border-radius": "0px 20px 20px 0px",
+          "padding-left": "430px",
+          "padding-top": "30px",
+          "padding-right": "30px",
+          "margin-left": "-400px",
+          color: "white"
+        }}>{header}</header>
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with

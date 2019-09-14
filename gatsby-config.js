@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'Matthensley.com',
     author: 'Matt Hensley',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    description: 'Matt Hensley',
+    siteUrl: 'https://www.matthensley.com',
   },
   plugins: [
     {
@@ -36,6 +36,12 @@ module.exports = {
             options: {
               maxWidth: 590,
             },
+          },
+          {
+            resolve: "gatsby-transformer-remark",
+            options: {
+              plugins: ["gatsby-remark-embed-spotify"]
+            }
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,
