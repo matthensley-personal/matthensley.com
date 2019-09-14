@@ -1,6 +1,6 @@
 [build]
   command = "gatsby build"
-  publish = "/"
+  publish = "/public"
 
 [build.environment]
   NODE_VERSION = "10.15.1"
