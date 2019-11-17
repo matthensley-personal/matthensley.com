@@ -1,15 +1,251 @@
-- artist: Kurt Vile
-  album: Wakin on a Pretty Daze
-  spotify: https://open.spotify.com/embed/album/2imxOfDIDk2voAYCZP88u2
-  rank: '2'
-  external_image: https://media.pitchfork.com/photos/5929a0059d034d5c69bf25fe/1:1/w_320/69b2dbee.jpg
-- artist: Kevin Morby
-  album: Singing Saw
-  spotify: https://open.spotify.com/embed/album/1s8RmcZjTuvDt9eQ4MAKLI
-  rank: '1'
-  external_image: https://media.pitchfork.com/photos/5929b46ac0084474cd0c228f/1:1/w_320/8ded819b.jpeg
-- artist: Appleseed Cast
-  album: The Fleeting Light of Impermanence
-  rank: '3'
-  external_image: https://media.pitchfork.com/photos/5d02b131b6e2e31127c9d3c9/1:1/w_320/TheFleetingLightofImpermanence_TheAppleseedCast.jpgKevin morbyKurt vileMiloJoe pugWar on drugsHiss golden messengerWilliam tylerTitus andronicusGodspeed
-  spotify: https://open.spotify.com/embed/track/0ZzrJ2P02L1bLp5CpjZEGo?si=fm-APLSPSlaXCcsOmfHlGA
+- artist: Unknown Mortal Orchestra
+  album: II
+  rank: 50
+  external_image: umo.jpg
+  spotify: https://open.spotify.com/embed/album/41C5iULlHU9sMYiekI75Pn
+  description: ''
+- artist: Damien Jurado
+  album: The Horizon Just Laughed
+  rank: 49
+  external_image: jurado.jpg
+  spotify: https://open.spotify.com/embed/album/4GvQWTUAzX3rpdO3OW6zik
+- artist: Karl Blau
+  album: Introducing Karl Blau
+  rank: 48
+  external_image: blau.jpg
+  spotify:
+- artist: Phosphorescent
+  album: Here's To Taking It Easy
+  rank: 47
+  external_image: phos.jpg
+  spotify:
+- artist: Wooden Wand
+  album: Clipper Ship
+  rank: 46
+  external_image: wand.jpg
+  spotify: https://open.spotify.com/embed/album/5w99ye9Yon37wt4QYyA8Wj
+- artist: Coming Soon
+  album:
+  rank: 45
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 44
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 43
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 42
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 41
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 40
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 39
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 38
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 37
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 36
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 35
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 34
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 33
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 32
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 31
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 30
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 29
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 28
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 27
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 26
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 25
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 24
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 23
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 22
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 21
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 20
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 19
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 18
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 17
+  external_image:
+  spotify:
+- artist: Strand of Oaks
+  album:
+  rank: 16
+  external_image: /artists/oaks.jpg
+  spotify: https://open.spotify.com/embed/album/2A7Voo0RCHokLc26kuMuKH
+- artist: Coming Soon
+  album:
+  rank: 15
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 14
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 13
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 12
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 11
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 10
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 9
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 8
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 7
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 6
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 5
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 4
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 3
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 2
+  external_image:
+  spotify:
+- artist: Coming Soon
+  album:
+  rank: 1
+  external_image:
+  spotify:

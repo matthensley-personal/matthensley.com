@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
@@ -14,7 +13,7 @@ class HomeIndex extends React.Component {
 
     return (
       <Layout location={this.props.location}>
-        <SEO title="All posts" />
+        <SEO title="Matt Hensley | Nostradamus es su stradamus" />
         <Image
           fixed={data.background.childImageSharp.fluid}
           style={{
@@ -27,9 +26,9 @@ class HomeIndex extends React.Component {
         />
         <div style={{
           position: "relative",
-          'z-index': 2,
+          zIndex: 2,
           color:"white",
-          "background-color":"rgba(0,0,0,.3)",
+          backgroundColor:"rgba(0,0,0,.3)",
           display:"inline-block"
         }}><h1></h1></div>
       </Layout>

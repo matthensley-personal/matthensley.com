@@ -1,11 +1,13 @@
 import React from "react"
-import { Link } from "gatsby"
-
+import { Link, graphql } from "gatsby"
+import Image from "gatsby-image"
 import { rhythm, scale } from "../utils/typography"
 
+
 class Layout extends React.Component {
+
   render() {
-    const { location, title, children } = this.props
+    const { location, title, children, data } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
 
@@ -46,6 +48,7 @@ class Layout extends React.Component {
             }}
             to={`/`}
           >
+
             {title}
           </Link>
         </h3>
@@ -62,21 +65,19 @@ class Layout extends React.Component {
       >
         <header style={{
           position: "relative",
-          "z-index": '2',
+          zIndex: '2',
           display: "inline-block",
-          "background-color": "rgba(0,0,0,.6)",
-          "border-radius": "0px 20px 20px 0px",
-          "padding-left": "430px",
-          "padding-top": "30px",
-          "padding-right": "30px",
-          "margin-left": "-400px",
+          backgroundColor: "rgba(0,0,0,.6)",
+          borderRadius: "0px 20px 20px 0px",
+          paddingLeft: "430px",
+          paddingTop: "30px",
+          paddingRight: "30px",
+          marginLeft: "-400px",
           color: "white"
         }}>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          © {new Date().getFullYear()}
         </footer>
       </div>
     )
