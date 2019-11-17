@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ArtistModal from "../components/modal"
@@ -20,6 +19,9 @@ class ArtistIndex extends React.Component {
 
   openModal(e) {
     e.preventDefault();
+    if(e.target.dataset.artist === 'Coming Soon') {
+      return false;
+    }
     this.setState({
       modalOpen: true,
       whichRank: e.target.dataset.rank,
@@ -36,7 +38,6 @@ class ArtistIndex extends React.Component {
 
   render() {
     const { data } = this.props
-    console.log(data);
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allAlbumsYaml.edges
 
@@ -70,16 +71,22 @@ class ArtistIndex extends React.Component {
             marginBottom: rhythm(1),
           }}
         >
-          <strong>This was the decade that got me back into music.</strong> After the influx of
-        </p>
+          <strong>This was the decade that got me back into music.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis egestas. Amet dictum sit amet justo donec. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Tempus egestas sed sed risus pretium quam. Sed vulputate mi sit amet mauris commodo quis. Viverra nibh cras pulvinar mattis nunc sed blandit. Aenean pharetra magna ac placerat. Tincidunt vitae semper quis lectus. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Est velit egestas dui id ornare. Pharetra sit amet aliquam id diam maecenas. Id faucibus nisl tincidunt eget nullam.</p>
+          <p
+            style={{
+              ...scale(-1 / 5),
+              display: `block`,
+              marginBottom: rhythm(1),
+            }}
+          >Ante metus dictum at tempor commodo. Aliquet nec ullamcorper sit amet risus nullam. Venenatis lectus magna fringilla urna porttitor. Placerat duis ultricies lacus sed. Arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales. Cursus in hac habitasse platea dictumst quisque sagittis purus. Lorem donec massa sapien faucibus et molestie ac. Vel facilisis volutpat est velit egestas. Elit at imperdiet dui accumsan sit. Leo a diam sollicitudin tempor. Tincidunt id aliquet risus feugiat in ante metus. Purus sit amet volutpat consequat mauris nunc congue nisi. Massa id neque aliquam vestibulum morbi blandit. Risus viverra adipiscing at in tellus integer feugiat scelerisque. Nisi vitae suscipit tellus mauris a. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Varius vel pharetra vel turpis nunc eget lorem dolor.</p>
+          <hr />
         {posts.map(({ node }) => {
-          const title = node.artist || node.id
+
           let img_src
           if(node.external_image) {
             img_src = node.external_image
             //look in our thumbs array
             images.forEach(function (item, index) {
-              console.log(item, index);
               if(node.external_image == item.thumb.originalName) {
                 img_src = item.thumb.src;
                 node.header = item.modal.src;
@@ -104,9 +111,7 @@ class ArtistIndex extends React.Component {
                 }}></div>
                   <a style={{
                     textDecoration: 'none',
-                    color: 'white',
                     boxShadow: 'none',
-                    display: 'block',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
@@ -115,7 +120,7 @@ class ArtistIndex extends React.Component {
                     paddingTop: '40%',
                     paddingBottom: '40%',
                     position: 'relative'
-                  }} onClick={this.openModal} data-rank={node.rank} href="#">{node.rank}</a>
+                  }} onClick={this.openModal} data-artist={node.artist} data-rank={node.rank} href="#">{node.rank}</a>
               </header>
             </article>
           )
@@ -151,6 +156,7 @@ export const pageQuery = graphql`
         node {
           id
           artist
+          description
           album
           rank
           external_image

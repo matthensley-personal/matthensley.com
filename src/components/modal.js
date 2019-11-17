@@ -1,12 +1,14 @@
 import React from "react"
-import PropTypes from "prop-types"
-import { rhythm } from "../utils/typography"
-import { useStaticQuery, graphql } from "gatsby"
 
 
 function ArtistModal({ isOpen, rank, artistData }) {
-  console.log(artistData);
-  if(isOpen == 'true') {
+  let description
+  if(artistData) {
+    description = {
+      __html: artistData.node.description,
+    }
+  }
+  if(isOpen === 'true') {
     return (
       <div
         style={{
@@ -23,30 +25,36 @@ function ArtistModal({ isOpen, rank, artistData }) {
           maxWidth: '80%',
           width: '900px',
           margin: 'auto',
-          padding: '20px'
         }}
-      ><div className="modal-inner" style={{
+      ><div className="modalInner" style={{
         maxHeight: '100%',
-        overflowY: 'scroll'
+        overflowY: 'scroll',
+        height: '100%',
       }}>
-        <h2
-          style={{
-            color: 'white',
-            marginTop: '.5rem',
-          }}>{artistData.node.artist}</h2>
-          <h3 style={{
-            color: 'white',
-            marginTop: '.5rem',
-          }}>{artistData.node.album}</h3>
-          <iframe
-            src={artistData.node.spotify}
-            title={artistData.node.artist}
-            width="300"
-            height="380"
-            frameBorder="0"
-            allowtransparency="true"
-            allow="encrypted-media">
-          </iframe>
+        <div className="modalHeader">
+          <h2
+            style={{
+              color: 'white',
+              marginTop: '.5rem',
+            }}>{artistData.node.artist}: {artistData.node.album}</h2>
+        </div>
+        <div className="modalContent">
+          <div className="modalLeft">
+            <iframe
+              src={artistData.node.spotify}
+              title={artistData.node.artist}
+              width="300"
+              height="380"
+              frameBorder="0"
+              allowtransparency="true"
+              allow="encrypted-media">
+            </iframe>
+          </div>
+          <div className="modalRight">
+            <div className="artistDescription" dangerouslySetInnerHTML={description}>
+            </div>
+          </div>
+          </div>
         </div>
       </div>
     )

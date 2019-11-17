@@ -14,3 +14,25 @@
   right:0;
   background:rgba(0,0,0,0.2);
 }
+
+.modalInner {
+  border-radius:25px;
+  background-color:rgba(0,0,0,0.6);
+  padding:20px;
+}
+
+
+.modalHeader, .modalContent {
+  display: flex;
+  width:100%;
+
+}
+
+.modalRight {
+  padding-left:20px;
+}
+
+.artistDescription {
+  padding:20px;
+  color:white;
+}

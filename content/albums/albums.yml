@@ -3,27 +3,31 @@
   rank: 50
   external_image: umo.jpg
   spotify: https://open.spotify.com/embed/album/41C5iULlHU9sMYiekI75Pn
-  description: ''
+  description: 'Lorem ipsum dolor sit amet, <a href="test">consectetur adipiscing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis egestas. Amet dictum sit amet justo donec. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Tempus egestas sed sed risus pretium quam. Sed vulputate mi sit amet mauris commodo quis. Viverra nibh cras pulvinar mattis nunc sed blandit. Aenean pharetra magna ac placerat.'
 - artist: Damien Jurado
   album: The Horizon Just Laughed
   rank: 49
   external_image: jurado.jpg
   spotify: https://open.spotify.com/embed/album/4GvQWTUAzX3rpdO3OW6zik
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis egestas. Amet dictum sit amet justo donec. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Tempus egestas sed sed risus pretium quam. Sed vulputate mi sit amet mauris commodo quis. Viverra nibh cras pulvinar mattis nunc sed blandit. Aenean pharetra magna ac placerat.'
 - artist: Karl Blau
   album: Introducing Karl Blau
   rank: 48
   external_image: blau.jpg
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis egestas. Amet dictum sit amet justo donec. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Tempus egestas sed sed risus pretium quam. Sed vulputate mi sit amet mauris commodo quis. Viverra nibh cras pulvinar mattis nunc sed blandit. Aenean pharetra magna ac placerat.'
   spotify:
 - artist: Phosphorescent
   album: Here's To Taking It Easy
   rank: 47
   external_image: phos.jpg
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis egestas. Amet dictum sit amet justo donec. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Tempus egestas sed sed risus pretium quam. Sed vulputate mi sit amet mauris commodo quis. Viverra nibh cras pulvinar mattis nunc sed blandit. Aenean pharetra magna ac placerat.'
   spotify:
 - artist: Wooden Wand
   album: Clipper Ship
   rank: 46
   external_image: wand.jpg
   spotify: https://open.spotify.com/embed/album/5w99ye9Yon37wt4QYyA8Wj
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis egestas. Amet dictum sit amet justo donec. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Tempus egestas sed sed risus pretium quam. Sed vulputate mi sit amet mauris commodo quis. Viverra nibh cras pulvinar mattis nunc sed blandit. Aenean pharetra magna ac placerat.'
 - artist: Coming Soon
   album:
   rank: 45
@@ -169,11 +173,11 @@
   rank: 17
   external_image:
   spotify:
-- artist: Strand of Oaks
+- artist: Coming Soon
   album:
   rank: 16
-  external_image: /artists/oaks.jpg
-  spotify: https://open.spotify.com/embed/album/2A7Voo0RCHokLc26kuMuKH
+  external_image:
+  spotify:
 - artist: Coming Soon
   album:
   rank: 15
