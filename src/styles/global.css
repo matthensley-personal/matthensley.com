@@ -1,9 +1,26 @@
+
+body {
+    background: linear-gradient(55deg, #90afc5 0%, #336b87 15%, #90afc5 35%, #336b87 50%, #90afc5 65%, #336b87 85%);
+}
+
+.introContainer {
+  max-width:830px;
+  margin:auto;
+}
+
+.artistWrap {
+  display:flex;
+  flex-wrap:wrap;
+}
+
 .artistThumb {
   float: left;
   width: 20%;
   position: relative;
   background-size: cover;
   background-position: center;
+  height:0;
+  padding-bottom:20%;
 }
 
 .modalBackdrop {
@@ -12,7 +29,8 @@
   bottom:0;
   left:0;
   right:0;
-  background:rgba(0,0,0,0.2);
+  background:rgba(0,0,0,0.8);
+  z-index:2
 }
 
 .modalInner {
@@ -30,9 +48,43 @@
 
 .modalRight {
   padding-left:20px;
+  flex-grow: 1;
 }
 
 .artistDescription {
-  padding:20px;
+  padding-right:20px;
   color:white;
+}
+
+
+@media(max-width: 992px) {
+
+  .modalContent {
+    flex-wrap: wrap-reverse;
+  }
+
+  .modalRight {
+    padding-left:0px;
+  }
+
+  .artistThumb  {
+    width: 33.33%;
+    padding-bottom: 33.33%;
+  }
+}
+
+@media(max-width: 767px) {
+  .artistThumb  {
+    width: 50%;
+    padding-bottom: 50%;
+  }
+}
+
+@media(max-width: 576px) {
+
+
+  .artistThumb  {
+    width: 100%;
+    padding-bottom: 20%;
+  }
 }

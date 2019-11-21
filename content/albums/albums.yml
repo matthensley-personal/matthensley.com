@@ -28,228 +28,230 @@
   external_image: wand.jpg
   spotify: https://open.spotify.com/embed/album/5w99ye9Yon37wt4QYyA8Wj
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis egestas. Amet dictum sit amet justo donec. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Tempus egestas sed sed risus pretium quam. Sed vulputate mi sit amet mauris commodo quis. Viverra nibh cras pulvinar mattis nunc sed blandit. Aenean pharetra magna ac placerat.'
-- artist: Coming Soon
-  album:
+- artist: Fruit Bats
+  album: Absolute Loser
   rank: 45
-  external_image:
+  external_image: fruitbats.jpg
   spotify:
-- artist: Coming Soon
+- artist: Zachary Cale
   album:
   rank: 44
-  external_image:
+  external_image: zachcale.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: The Gloaming
+  album: II
   rank: 43
-  external_image:
+  external_image: gloaming.jpg
   spotify:
-- artist: Coming Soon
+- artist: Deafheaven
   album:
   rank: 42
-  external_image:
+  external_image: deafheaven.jpg
   spotify:
-- artist: Coming Soon
+- artist: Bahamas
   album:
   rank: 41
-  external_image:
+  external_image: bahamas.jpg
   spotify:
-- artist: Coming Soon
+- artist: Kishi Bashi
   album:
   rank: 40
-  external_image:
+  external_image: kishi.jpg
   spotify:
-- artist: Coming Soon
+- artist: Lord Huron
   album:
   rank: 39
-  external_image:
+  external_image: huron.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: Yo La Tengo
+  album: Fade
   rank: 38
-  external_image:
+  external_image: yola.jpg
   spotify:
-- artist: Coming Soon
+- artist: Woods
   album:
   rank: 37
-  external_image:
+  external_image: woods.webp
   spotify:
-- artist: Coming Soon
+- artist: Phil Cook
   album:
   rank: 36
-  external_image:
+  external_image: cook.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: Bowerbirds
+  album: The Clearing
   rank: 35
-  external_image:
+  external_image: bowerbirds.jpg
   spotify:
-- artist: Coming Soon
+- artist: Ages and Ages
   album:
   rank: 34
-  external_image:
+  external_image: ages.jpg
   spotify:
-- artist: Coming Soon
+- artist: The Tallest Man On Earth
   album:
   rank: 33
-  external_image:
+  external_image: tallest.jpg
   spotify:
-- artist: Coming Soon
+- artist: RLYR
   album:
   rank: 32
-  external_image:
+  external_image: rlyr.jpg
   spotify:
-- artist: Coming Soon
+- artist: Gregory Alan Isakov
   album:
   rank: 31
-  external_image:
+  external_image: isakov.jpg
   spotify:
-- artist: Coming Soon
+- artist: Nap Eyes
   album:
   rank: 30
-  external_image:
+  external_image: napeyes.jpg
   spotify:
-- artist: Coming Soon
+- artist: Laura Marling
   album:
   rank: 29
-  external_image:
+  external_image: marling.jpg
   spotify:
-- artist: Coming Soon
+- artist: Jake Xerxes Fussell
   album:
   rank: 28
-  external_image:
+  external_image: fussell.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: Field Report
+  album: Marigolden
   rank: 27
-  external_image:
-  spotify:
-- artist: Coming Soon
+  external_image: fieldreport.jpg
+  description: "<p>I ranked Marigolden somewhere in the low 70's the year it came out- I think I found it late in the year and was getting burnt out a bit. By happenstance, he happened to open up for Joe Pug the following year and it was just kind of a perfect show all around. Since then, this has become a rainy day staple that has gotten probably as much play as anything on my shelf.</p>"
+  spotify: https://open.spotify.com/embed/album/2WBQEn5OPnIvyy9I1Y2Ctj
+- artist: Asgeir
   album:
   rank: 26
-  external_image:
+  external_image: asgeir.jpg
   spotify:
-- artist: Coming Soon
+- artist: Sylvan Esso
   album:
   rank: 25
-  external_image:
+  external_image: esso.jpg
   spotify:
-- artist: Coming Soon
+- artist: Matthew E. White
   album:
   rank: 24
-  external_image:
+  external_image: white.jpg
   spotify:
-- artist: Coming Soon
+- artist: Fleet Foxes
   album:
   rank: 23
-  external_image:
+  external_image: foxes.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: Cass McCombs
+  album: Big Wheel (and Others)
   rank: 22
-  external_image:
+  external_image: cass.jpg
   spotify:
-- artist: Coming Soon
+- artist: The Dead Tongues
   album:
   rank: 21
-  external_image:
+  external_image: tongues.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: Daniel Norgren
+  album: Alabursy
   rank: 20
-  external_image:
-  spotify:
-- artist: Coming Soon
+  external_image: norgren.jpg
+  spotify: https://open.spotify.com/embed/album/5TCsqF6YrX0pPOVwOdk9ch
+  description: '<iframe width="100%" src="https://www.youtube.com/embed/la_3jyFWvKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+- artist: Chance the Rapper
   album:
   rank: 19
-  external_image:
+  external_image: chance.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: Arcade Fire
+  album: The Suburbs
   rank: 18
-  external_image:
+  external_image: arcade.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: Vampire Weekend
+  album: Modern Vampires of the City
   rank: 17
-  external_image:
+  external_image: vampire.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: The Mountain Goats
+  album: Transcendental Youth
   rank: 16
-  external_image:
+  external_image: tmg.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: Andrew Bird
+  album: Break It Yourself
   rank: 15
-  external_image:
+  external_image: andrewbird.webp
   spotify:
-- artist: Coming Soon
+- artist: Godspeed You! Black Emperor
   album:
   rank: 14
-  external_image:
+  external_image: gybe.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: Doug Paisley
+  album: Strong Feelings
   rank: 13
-  external_image:
+  external_image: paisley.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: William Tyler
+  album: Modern Country
   rank: 12
-  external_image:
+  external_image: william.jpg
   spotify:
-- artist: Coming Soon
+- artist: Milo
   album:
   rank: 11
-  external_image:
+  external_image: milo.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: Barr Brothers
+  album: Sleeping Operator
   rank: 10
-  external_image:
+  external_image: barr.jpg
   spotify:
-- artist: Coming Soon
+- artist: Joe Pug
   album:
   rank: 9
-  external_image:
+  external_image: pug.png
   spotify:
-- artist: Coming Soon
+- artist: Hiss Golden Messenger
   album:
   rank: 8
-  external_image:
+  external_image: hiss.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: War on Drugs
+  album: Lost In The Dream
   rank: 7
-  external_image:
+  external_image: drugs.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: Strand of Oaks
+  album: Dark Shores
   rank: 6
-  external_image:
+  external_image: oaks.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: Titus Andronicus
+  album: The Monitor
   rank: 5
-  external_image:
+  external_image: titus.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: Red River Dialect
+  album: Broken Stay Open Sky
   rank: 4
-  external_image:
+  external_image: rrd.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: Bon Iver
+  album: Bon Iver
   rank: 3
-  external_image:
+  external_image: boniver.jpg
   spotify:
-- artist: Coming Soon
-  album:
+- artist: Kurt Vile
+  album: Wakin On A Pretty Daze
   rank: 2
-  external_image:
-  spotify:
-- artist: Coming Soon
-  album:
+  external_image: kv.jpg
+  spotify: https://open.spotify.com/embed/album/2imxOfDIDk2voAYCZP88u2
+- artist: Kevin Morby
+  album: Singing Saw
   rank: 1
-  external_image:
-  spotify:
+  external_image: km.webp
+  spotify: https://open.spotify.com/embed/album/1s8RmcZjTuvDt9eQ4MAKLI

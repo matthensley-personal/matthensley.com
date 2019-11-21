@@ -36,7 +36,7 @@ function ArtistModal({ isOpen, rank, artistData }) {
             style={{
               color: 'white',
               marginTop: '.5rem',
-            }}>{artistData.node.artist}: {artistData.node.album}</h2>
+            }}>{artistData.node.artist}</h2>
         </div>
         <div className="modalContent">
           <div className="modalLeft">
@@ -51,6 +51,10 @@ function ArtistModal({ isOpen, rank, artistData }) {
             </iframe>
           </div>
           <div className="modalRight">
+            <h3 style={{
+              color: 'white',
+              marginTop: '0px',
+            }}>Favorite Album: {artistData.node.album}</h3>
             <div className="artistDescription" dangerouslySetInnerHTML={description}>
             </div>
           </div>
