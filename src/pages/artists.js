@@ -79,7 +79,7 @@ class ArtistIndex extends React.Component {
               display: `block`,
               marginBottom: rhythm(1),
             }}
-          >In 2009, we moved into our house and I got a record player. I had a moderate collection of cheap copies of 60's/70's vinyl + some novelty hits, but I had never in my life been someone to routinely PAY for new music and the timing felt right. Also, by late 2010/early 2011, we had developed a solid friend group in town with whom we decided to start what we called the "Mix-Tape Club". Each month(ish), we would pick a theme and each of was responsible for contributing a song towards that theme to create a compiled mix. From this, I found some great avenues for exploration.</p>
+          >In 2009, we moved into our house and I got a record player. I had a moderate collection of cheap copies of 60's/70's vinyl + some novelty hits, but I had never in my life been someone to routinely PAY for new music. It felt like time. Also, by late 2010/early 2011, we had developed a solid friend group in town with whom we decided to start what we called the "Mix-Tape Club". Each month(ish), we would pick a theme and each of was responsible for contributing a song towards that theme to create a compiled mix. From this, I found some great avenues for exploration.</p>
           <p
             style={{
               ...scale(-1 / 5),
@@ -97,7 +97,7 @@ class ArtistIndex extends React.Component {
               display: `block`,
               marginBottom: rhythm(1),
             }}
-          ><strong>Since then, things haven't really stopped.</strong>  I keep up as best I can (for a father of two) with the weekly releases, music blogs etc and try and keep my ear to the ground on what's coming up. Invaluable in this process is the Aquarium Drunkard blog, a few trusted record labels, a handful of music writers on Twitter, the All Songs Considered podcast, and of course, the annual Pickathon lineup. I try not to be too deliberate about anything anymore- try to follow threads when they present themselves and not force myself to sit through something that isn't working for me. Each year, I'm recalibrating my approach, adjusting where I put in effort and where I go with the flow. Now I have "acquired" enough bands that their subsequent releases are enough to keep me busy without being forced to find something truly new, which is both a blessing and a curse.<strong>I still feel a strong attachment to "new" music.</strong> I know I have blind spots that would prevent me from ever becoming a music writer / working in a record store- but if I open up my world to the entire history of recorded sound, it's too daunting. It also creates the beautiful opportunity to see a band on the way up- see an album I love on its initial tour cycle, when it's new to everyone. For me, the joy of being there for that will always beat the cred of the "wish I had been there" scene historian.</p>
+          ><strong>Since then, things haven't really stopped.</strong> I keep up as best I can (for a father of two) with the weekly releases, music blogs etc and try and keep my ear to the ground on what's coming up. Invaluable in this process is the Aquarium Drunkard blog, a few trusted record labels, a handful of music writers on Twitter, the All Songs Considered podcast, and of course, the annual Pickathon lineup. I try not to be too deliberate about anything anymore- try to follow threads when they present themselves and not force myself to sit through something that isn't working for me. Each year, I'm recalibrating my approach, adjusting where I put in effort and where I go with the flow. Now I have "acquired" enough bands that their subsequent releases are enough to keep me busy without being forced to find something truly new, which is both a blessing and a curse.<strong>I still feel a strong attachment to "new" music.</strong> I know I have blind spots that would prevent me from ever becoming a music writer / working in a record store- but if I open up my world to the entire history of recorded sound, it's too daunting. It also creates the beautiful opportunity to see a band on the way up- see an album I love on its initial tour cycle, when it's new to everyone. For me, the joy of being there for that will always beat the cred of the "wish I had been there" scene historian.</p>
           <p
             style={{
               ...scale(-1 / 5),
@@ -108,9 +108,10 @@ class ArtistIndex extends React.Component {
           <hr />
           <p
             style={{
-              ...scale(-1 / 5),
+              ...scale(-1 / 8),
               display: `block`,
               marginBottom: rhythm(1),
+              fontSize: '20px',
             }}
           >What follows is a list of 50 artists that had the biggest impact / staying power with me over the last 10 years. They are loosely ranked by their presence in my yearly lists, with some correction for history and what I truly spent the most time listening to. For each of them, I've included a few words, plus an embed of my favorite album of theirs from this decade, and the occasional bonus material to highlight my appreciation. I hope you can find something in here that you enjoy as much as I have.</p>
         <div><small>Additional note- I didn't take these photos. I lifted them from Google image search. I hope I am not sued.</small></div></div>
