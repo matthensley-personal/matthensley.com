@@ -1,11 +1,83 @@
 
 body {
-    background: linear-gradient(55deg, #90afc5 0%, #336b87 15%, #90afc5 35%, #336b87 50%, #90afc5 65%, #336b87 85%);
+    /*background: linear-gradient(55deg, #90afc5 0%, #336b87 15%, #90afc5 35%, #336b87 50%, #90afc5 65%, #336b87 85%);*/
+    background-color: #9CC3D5FF;
 }
 
-.introContainer {
+header h3,
+header h1{
+  color:white;
+}
+
+.headerwrapper {
+  padding-bottom: 25px;
+  padding-left:25px;
+}
+
+.headerwrapper h1 {
+  color:white;
+  text-shadow: black 5px 5px 10px;
+}
+
+h1,h2,h3 {
+  color: #0063B2FF;
+}
+
+h3 a {
+  color:white;
+}
+
+.yearlist li {
+  margin-bottom:1px;
+  font-size:14px;
+}
+
+p.closing {
+  text-align:center;
+}
+
+p.closing a {
+  color:white;
+}
+
+.yearLabelWrapper {
+  background-color: #90afc5;
+  padding:15px 30px;
+  margin-bottom:20px;
+  text-align:center;
+  border-top: solid black 10px;
+}
+
+.yearLabelWrapper h2 {
+  margin:0px;
+  display:inline-block;
+  padding: 0px 15px;
+  border-right: 1px solid;
+  cursor: pointer;
+}
+
+.yearData {
+  display: flex;
+  justify-content: space-between;
+}
+
+.yearContainer h3 {
+  text-align: center;
+  font-size:48px;
+}
+
+.introContainer, .yearContainer article {
   max-width:830px;
   margin:auto;
+  padding:0px 30px;
+}
+
+.sectionHead {
+  text-align:center;
+}
+
+.yearLabel {
+  font-size:30px;
 }
 
 .artistWrap {
@@ -78,10 +150,21 @@ body {
     width: 50%;
     padding-bottom: 50%;
   }
+
+  .playlist {
+    max-width:100%;
+  }
+
+  .yearData iframe {
+    max-width:100%!important;
+  }
 }
 
 @media(max-width: 576px) {
 
+  .yearData {
+    flex-wrap:wrap;
+  }
 
   .artistThumb  {
     width: 100%;

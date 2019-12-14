@@ -142,8 +142,8 @@
   external_image: asgeir.jpg
   spotify: https://open.spotify.com/embed/album/69ca0kNrnT5F8jvzNpEjD8
   description: <p>This guy was a best-kept secret for a couple years that I was stoked to get hip to early enough to catch him at Mississippi Studios on his first US tour. I picked up the Icelandic language version of his first record at a shop it Reykjavik and protected it in my suitcase for a week. Great sense of pop, dynamics, and fun.</p>
-- artist: Sylvan Esso (2014)
-  album: S/T
+- artist: Sylvan Esso
+  album: S/T (2014)
   rank: 26
   external_image: esso.jpg
   spotify: https://open.spotify.com/embed/album/5Abelpx4c3FzhTOZP3ZIvS
@@ -161,15 +161,17 @@
   spotify: https://open.spotify.com/embed/album/7LKzVm90JnhNMPF6qX21fS
   description: <p>I was late to the Fleet Foxes- in fact I probably actively complained about them at some point without ever listening to them. Not sure where my bias was- or if I have changed and now like things I didn't. I think I wasn't really aware of them until Father John Misty kind of started happening and I grouped them in with his whole shtick. Anyway, I'm sorry, they're really great and this album is an all-timer.</p>
 - artist: Chance the Rapper
-  album:
+  album: Coloring Book
   rank: 23
   external_image: chance.jpg
-  spotify:
+  spotify: https://open.spotify.com/embed/album/71QyofYesSsRMwFOTafnhB
+  description: <p>I had a really hard time choosing an album here- I absolutely loved bits and pieces of everything he did over the decade, and my interest was highest around the release of "Surf" / when Coloring book came out, but the two things that come to mind are his absolutely transcendant verse on this Kanye song:</p> <iframe src="https://open.spotify.com/embed/track/1eQBEelI2NCy7AUTerX0KS" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> <p>and this non-album track that is a jam to end all jams:</p> <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/141310162&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe></p>'
 - artist: Cass McCombs
   album: Big Wheel (and Others) (2013)
   rank: 22
   external_image: cass.jpg
-  spotify:
+  spotify: https://open.spotify.com/embed/album/56KG63TFrh23oy9lcqPEnt
+  description: <p>Ol Cass is an odd duck</p>
 - artist: The Dead Tongues
   album: Unsung Passage
   rank: 21
