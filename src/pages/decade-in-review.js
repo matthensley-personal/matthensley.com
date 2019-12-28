@@ -18,7 +18,7 @@ class ArtistIndex extends React.Component {
     this.state = {
       modalOpen: false,
       whichrank: false,
-      tldr: 'gone',
+      tldr: 'initial',
       year: '0',
     }
   }
@@ -78,6 +78,14 @@ class ArtistIndex extends React.Component {
       modal = <ArtistModal isOpen="false" rank={null} artistData={null} />
     }
 
+    let tldrlinks
+    if(this.state.tldr === 'gone') {
+      tldrlinks = <h3><span className="fakelink" onClick={this.showTldr}>Wait, I changed my mind.</span></h3>
+    }
+    else {
+      tldrlinks = <h3><span className="fakelink" onClick={this.showTldr}>Read The Long Thing</span> or <span className="fakelink" onClick={this.destroyTldr}>Nah</span></h3>
+    }
+
     let tldr
     if(this.state.tldr === 'full') {
       tldr = <div className="tldr">
@@ -116,7 +124,7 @@ class ArtistIndex extends React.Component {
             display: `block`,
             marginBottom: rhythm(1),
           }}
-        ><strong>Since then, things haven't really stopped.</strong> I keep up as best I can (for a father of two) with the weekly releases, music blogs etc and try and keep my ear to the ground on what's coming up. Invaluable in this process is the <a href="https://aquariumdrunkard.com/" target="_blank">Aquarium Drunkard blog</a>, a <a href="http://www.paradiseofbachelors.com/" target="_blank">few</a> <a href="https://www.mergerecords.com/" target="_blank">trusted</a> <a href="https://www.noquarter.net/" target="_blank">record</a> <a href="https://deadoceans.com/">labels</a>, a <a href="https://twitter.com/jasonpwoodbury" target="_blank">handful</a> <a href="https://twitter.com/currincy" target="_blank">of</a> <a href="https://twitter.com/totalvibration" target="_blank">music</a> <a href="https://twitter.com/en_cohen" target="_blank">writers</a> on Twitter, the <a href="https://www.npr.org/sections/allsongs/" target="_blank">All Songs Considered</a> podcast, and of course, the annual <a href="https://www.pickathon.com" target="_blank">Pickathon</a> lineup. I try not to be too deliberate about anything anymore- try to follow threads when they present themselves and not force myself to sit through something that isn't working for me. Each year, I'm recalibrating my approach, adjusting where I put in effort and where I go with the flow. Now I have "acquired" enough bands that their subsequent releases are enough to keep me busy without being forced to find something truly new, which is both a blessing and a curse. Throughout this process I have tried to chronicle my reactions without too much forethought or self-awareness, but now looking back on my comments, I frequently cringe. I'm happy to have discovered I am no critic- I like to share what I like and should let the music speak for itself as much as possible. I have run out of descriptors and no longer feel the need to try to rewrite things that someone else has said more eloquently.</p>
+        ><strong>Since then, things haven't really stopped.</strong> I keep up as best I can (for a father of two) with the weekly releases, music blogs etc and try and keep my ear to the ground on what's coming up. Invaluable in this process is the <a href="https://aquariumdrunkard.com/" target="_blank" rel="noopener noreferrer">Aquarium Drunkard blog</a>, a <a href="http://www.paradiseofbachelors.com/" target="_blank" rel="noopener noreferrer">few</a> <a href="https://www.mergerecords.com/" target="_blank" rel="noopener noreferrer">trusted</a> <a href="https://www.noquarter.net/" target="_blank" rel="noopener noreferrer">record</a> <a href="https://deadoceans.com/">labels</a>, a <a href="https://twitter.com/jasonpwoodbury" target="_blank" rel="noopener noreferrer">handful</a> <a href="https://twitter.com/currincy" target="_blank" rel="noopener noreferrer">of</a> <a href="https://twitter.com/totalvibration" target="_blank" rel="noopener noreferrer">music</a> <a href="https://twitter.com/en_cohen" target="_blank" rel="noopener noreferrer">writers</a> on Twitter, the <a href="https://www.npr.org/sections/allsongs/" target="_blank" rel="noopener noreferrer">All Songs Considered</a> podcast, and of course, the annual <a href="https://www.pickathon.com" target="_blank" rel="noopener noreferrer">Pickathon</a> lineup. I try not to be too deliberate about anything anymore- try to follow threads when they present themselves and not force myself to sit through something that isn't working for me. Each year, I'm recalibrating my approach, adjusting where I put in effort and where I go with the flow. Now I have "acquired" enough bands that their subsequent releases are enough to keep me busy without being forced to find something truly new, which is both a blessing and a curse. Throughout this process I have tried to chronicle my reactions without too much forethought or self-awareness, but now looking back on my comments, I frequently cringe. I'm happy to have discovered I am no critic- I like to share what I like and should let the music speak for itself as much as possible. I have run out of descriptors and no longer feel the need to try to rewrite things that someone else has said more eloquently.</p>
         <p
           style={{
             ...scale(-1 / 5),
@@ -127,7 +135,7 @@ class ArtistIndex extends React.Component {
         <hr />
         </div>
     }
-    else if(this.state.tldr === 'gone') {
+    else {
       tldr = '';
     }
 
@@ -153,9 +161,17 @@ class ArtistIndex extends React.Component {
         </h1></div>
 
         <div className="introContainer">
+        <p
+          style={{
+            ...scale(6 / 32),
+            display: `block`,
+            marginBottom: rhythm(1),
+            marginTop: rhythm(3),
+          }}
+        >
+        As I started looking back on the albums I was into in 2019, it felt like I was just on a victory lap of my favorite music of the decade. So rather than re-hash and reorder my favorite artists one more time and just be done with it, I decided to do a deeper look into the past 10 years in appreciation of the music that soundtracked the highs and lows of the 2010's for me (and anyone I could get to listen).</p>
 
-
-        <h3><a onClick={this.showTldr} href="#">Read The Long Thing</a> or <a onClick={this.destroyTldr} href="#">Nah</a></h3>
+        {tldrlinks}
         {tldr}
         <h1 className="sectionHead">50 Artists</h1>
           <p
@@ -165,7 +181,7 @@ class ArtistIndex extends React.Component {
               marginBottom: rhythm(1),
               fontSize: '20px',
             }}
-          >In retrospect, these 50 artists had the biggest impact / staying power with me over the last 10 years. They are loosely ranked by their presence in my yearly lists, with some correction for history and what I truly spent the most time listening to. For each of them, I've included a few words, plus an embed of my favorite album of theirs from this decade, and the occasional bonus material to highlight my appreciation. I hope you can find something in here that you enjoy as much as I have.</p>
+          >These 50 artists had the biggest impact / staying power with me over the last 10 years. They are loosely ranked by their presence in my yearly lists, with some correction for history and what I truly spent the most time listening to. For each of them, I've included a few words, plus an embed of my favorite album of theirs from this decade, and the occasional bonus material to highlight my appreciation. I hope you can find something in here that you enjoy as much as I have.</p>
         </div>
         <div className="artistWrap">
         {posts.map(({ node }) => {
@@ -175,7 +191,7 @@ class ArtistIndex extends React.Component {
             img_src = node.external_image
             //look in our thumbs array
             images.forEach(function (item, index) {
-              if(node.external_image == item.thumb.originalName) {
+              if(node.external_image === item.thumb.originalName) {
                 img_src = item.thumb.src;
                 node.header = item.modal.src;
               }
@@ -197,7 +213,7 @@ class ArtistIndex extends React.Component {
                   right: 0,
                   backgroundColor: 'rgba(0,0,0,0.4)',
                 }}></div>
-                  <a style={{
+                  <span className="fakelink" style={{
                     textDecoration: 'none',
                     boxShadow: 'none',
                     display: 'flex',
@@ -212,14 +228,14 @@ class ArtistIndex extends React.Component {
                     bottom: 0,
                     left: 0,
                     right: 0,
-                  }} onClick={this.openModal} data-artist={node.artist} data-rank={node.rank} href="#">{node.artist}</a>
+                  }} onClick={this.openModal} data-artist={node.artist} data-rank={node.rank}>{node.artist}</span>
               </header>
             </article>
           )
         })}
         </div>
         <div className="introContainer"><h1 className="sectionHead">Year By Year</h1>
-          <p>I've reduced my annual lists down to a more digestible 25 (as much as it breaks my heart to see what's cut). Also included my yearly playlist of favorite tunes for each year provided (2012 on).</p></div>
+          <p>I've reduced my annual lists down to a more digestible 25 per (as much as it breaks my heart to see what got left out). Also included my yearly playlist of favorite tunes for each year provided, starting in 2012.</p></div>
         <div className="yearLabelWrapper">
           <h2 onClick={this.changeYear} data-year="2012" className="yearLabel">2012</h2>
           <h2 onClick={this.changeYear} data-year="2013" className="yearLabel">2013</h2>
@@ -233,11 +249,14 @@ class ArtistIndex extends React.Component {
 
         <YearList year={this.state.year} />
 
-        <div className="introContainer"><h1 className="sectionHead">One Final Playlist</h1>
-
+        <div className="introContainer"><h1 className="sectionHead">One To End On</h1>
+        <p>Thanks to Pickathon's relentless dedication to recording, I can go back and re-live one of my favorite musical moments of the decade. Sweden's own Daniel Norgren, on the Treeline Stage in 2016. It's Friday at Pickathon, and things are just getting started. He's relatively unknown (if not entirely?) in the US, and this is his first US performance ever. The set is relatively subdued- interesting, pleasant, but you can see at the start most are sitting down cross-legged soaking up the lightly accompanied accordion, piano, and blues guitar. I'm somewhere in there too- up relatively close (as I tend to be), though I've looked for myself many times in this video. I'll let the video speak for itself, but when this set was over, I (and nearly everyone else lucky enough to be present) prioritized his next two shows at the festival over everything else, and those 3 shows from that weekend will live among my favorite musical memories.</p>
+        <div class="videoWrapper">
+        <iframe title="Daniel Norgren at Pickathon" width="560" height="315" src="https://www.youtube.com/embed/la_3jyFWvKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
         </div>
         <div className="introContainer"><h3 className="sectionHead">Thanks for listening with me.</h3>
-        <p className="closing">Hit me up on <a target="_blank" href="https://www.twitter.com/kindaintense">twitter</a>, <a target="_blank" href="https://www.facebook.com/matthensley">fb</a>, <a target="_blank" href="https://www.instagram.com/matthensley">instagram</a>, etc. and we can do it up.</p>
+        <p className="closing">Hit me up on <a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/kindaintense">twitter</a>, <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/matthensley">fb</a>, <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/matthensley">instagram</a>, etc. and we can do it up.</p>
         </div>
       </Layout>
     )

@@ -36,7 +36,7 @@ function YearList({year}) {
   </ol>
 
   playlist =
-    <iframe src="https://open.spotify.com/embed/playlist/6evx1ZkhKnJ50a4T0u9bzk" width="380" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <iframe title="2012" src="https://open.spotify.com/embed/playlist/6evx1ZkhKnJ50a4T0u9bzk" width="380" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   }
   else if(year === '2013') {
     yeardata = <ol className="yearlist">
@@ -66,7 +66,7 @@ function YearList({year}) {
 <li>Cate Le Bon- Mug Museum</li>
 <li>Volcano Choir- Repave</li></ol>
 
-playlist = <iframe src="https://open.spotify.com/embed/playlist/1BgEQNYjEUg0uGdnKTI4kx" width="380" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+playlist = <iframe title="2013" src="https://open.spotify.com/embed/playlist/1BgEQNYjEUg0uGdnKTI4kx" width="380" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   }
   else if(year === '2014') {
     yeardata = <ol className="yearlist">
@@ -96,7 +96,7 @@ playlist = <iframe src="https://open.spotify.com/embed/playlist/1BgEQNYjEUg0uGdn
 <li>The Gloaming- The Gloaming</li>
 <li>Sun Kil Moon- Benji</li>
     </ol>
-    playlist = <iframe src="https://open.spotify.com/embed/playlist/79enh1Ckx38K0MRR3MWj8V" width="380" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    playlist = <iframe title="2014" src="https://open.spotify.com/embed/playlist/79enh1Ckx38K0MRR3MWj8V" width="380" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   }
   else if(year === '2015') {
     yeardata = <ol className="yearlist"><li>Sufjan Stevens- Carrie and Lowell</li>
@@ -125,7 +125,7 @@ playlist = <iframe src="https://open.spotify.com/embed/playlist/1BgEQNYjEUg0uGdn
 <li>Oddisee- The Good Fight</li>
 <li>Natalie Prass- Natalie Prass</li>
     </ol>
-    playlist = <iframe src="https://open.spotify.com/embed/playlist/20vfcHL3W5jFbGcLu044U6" width="380" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    playlist = <iframe title="2015" src="https://open.spotify.com/embed/playlist/20vfcHL3W5jFbGcLu044U6" width="380" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   }
   else if(year === '2016') {
     yeardata = <ol className="yearlist"><li>Kevin Morby- Singing Saw</li>
@@ -154,7 +154,7 @@ playlist = <iframe src="https://open.spotify.com/embed/playlist/1BgEQNYjEUg0uGdn
 <li>Basia Bulat - Good Advice</li>
 <li>Steve Gunn - Eyes On The Lines</li>
     </ol>
-    playlist = <iframe src="https://open.spotify.com/embed/playlist/49aJyzvT7l2iosNbpC3HEC" width="380" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    playlist = <iframe title="2016" src="https://open.spotify.com/embed/playlist/49aJyzvT7l2iosNbpC3HEC" width="380" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   }
   else if(year === '2017') {
     yeardata = <ol className="yearlist"><li>Kevin Morby - City Music</li>
@@ -183,7 +183,7 @@ playlist = <iframe src="https://open.spotify.com/embed/playlist/1BgEQNYjEUg0uGdn
 <li>Gunn-Truscinski Duo - Bay Head</li>
 <li>Tift Merritt - Stitch of the World</li>
     </ol>
-    playlist = <iframe src="https://open.spotify.com/embed/playlist/7jD5S2N4TRx8Pdmoo5MGRd" width="380" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    playlist = <iframe title="2017" src="https://open.spotify.com/embed/playlist/7jD5S2N4TRx8Pdmoo5MGRd" width="380" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   }
   else if(year === '2018') {
     yeardata = <ol className="yearlist"><li>Doug Paisley - Starter Home</li>
@@ -212,12 +212,36 @@ playlist = <iframe src="https://open.spotify.com/embed/playlist/1BgEQNYjEUg0uGdn
 <li>Lucy Dacus - Historian</li>
 <li>Sleep - The Sciences</li>
     </ol>
-    playlist = <iframe src="https://open.spotify.com/embed/playlist/7imhN9bdkGm7kwjkVX8HYc" width="380" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    playlist = <iframe title="2018" src="https://open.spotify.com/embed/playlist/7imhN9bdkGm7kwjkVX8HYc" width="380" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   }
   else if(year === '2019') {
-    yeardata = <ol className="yearlist">
+    yeardata = <ol className="yearlist"><li>Kevin Morby - Oh My God</li>
+<li>Jake Xerxes Fussell - Out of Sight</li>
+<li>Bill Callahan - Shepard in a Sheepskin Vest</li>
+<li>Joe Pug - The Flood In Color</li>
+<li>Vampire Weekend - Father of the Bride</li>
+<li>Daniel Norgren - Wooh Dang</li>
+<li>Andrew Bird - My Finest Work Yet</li>
+<li>Mountain Goats - In League With Dragons</li>
+<li>Damien Jurado - In The Shape of a Storm</li>
+<li>Red River Dialect - Abundance Welcoming Ghosts</li>
+<li>Big Thief - Two Hands</li>
+<li>Titus Andronicus - An Obelisk</li>
+<li>Bonnie Prince Billy - I Made A Place</li>
+<li>William Tyler - Goes West</li>
+<li>Bon Iver - i,i</li>
+<li>Appleseed Cast - The Fleeting Light of Impermanence</li>
+<li>Wilco - Love is Everywhere</li>
+<li>Hiss Golden Messenger - Terms of Surrender</li>
+<li>Joan Shelley - Like The River Loves The Sea</li>
+<li>Lankum - The Livelong Day</li>
+<li>The National - I Am Easy To Find</li>
+<li>Vetiver - Up On High</li>
+<li>Fruit Bats - Gold Past Life</li>
+<li>Ages and Ages - Me You They We</li>
+<li>Kishi Bashi - Omoiyari</li>
     </ol>
-    playlist = ''
+    playlist = <iframe title="2019" src="https://open.spotify.com/embed/playlist/0dWpJr2zSG6yuTWIIeDHsM" width="300" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   }
 
   return (
