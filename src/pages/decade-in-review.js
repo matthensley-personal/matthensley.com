@@ -140,11 +140,12 @@ class ArtistIndex extends React.Component {
     }
 
     console.log(data);
+    let seoimg = data.background.childImageSharp.fluid.src
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         {modal}
-        <SEO title="My Decade In Music" />
+        <SEO title="My Decade In Music" image={seoimg} description="As I started looking back on the albums I was into in 2019, it felt like I was just on a victory lap of my favorite music of the decade. So rather than re-hash and reorder my favorite artists one more time and just be done with it, I decided to do a deeper look into the past 10 years in appreciation of the music that soundtracked the highs and lows of the 2010's for me (and anyone I could get to listen)." />
         <div className="headerwrapper" style={{
           paddingTop: '200px',
           backgroundSize: 'cover',
