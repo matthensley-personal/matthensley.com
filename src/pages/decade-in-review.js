@@ -140,7 +140,7 @@ class ArtistIndex extends React.Component {
     }
 
     console.log(data);
-    let seoimg = data.background.childImageSharp.fluid.src
+    let seoimg = 'https://www.matthensley.com' + data.background.childImageSharp.fluid.src
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
