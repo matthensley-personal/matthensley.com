@@ -8,7 +8,7 @@ class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
-    let header
+    let header, subchildren
 
     if (location.pathname === rootPath) {
       header = (
@@ -31,7 +31,11 @@ class Layout extends React.Component {
           </Link>
         </h1>
       )
+      subchildren = (
+        <div className="whatsNew"><p><a href="/decade-in-review">My Decade In Music (2010-2019)</a></p></div>
+      )
     } else {
+      subchildren = (<span></span>)
       header = (
         <h3
           style={{
@@ -76,7 +80,7 @@ class Layout extends React.Component {
           color: "white"
         }}>{header}
         </header>
-        <main>{children}<div className="whatsNew"><p><a href="/decade-in-review">My Decade In Music (2010-2019)</a></p></div></main>
+        <main>{children}{subchildren}</main>
         <footer>
           © {new Date().getFullYear()}
         </footer>
