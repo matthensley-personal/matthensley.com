@@ -29,6 +29,7 @@ class HomeIndex extends React.Component {
           backgroundColor:"rgba(0,0,0,.3)",
           display:"inline-block"
         }}></div>
+
       </Layout>
     )
   }

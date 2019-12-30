@@ -74,8 +74,9 @@ class Layout extends React.Component {
           paddingRight: "30px",
           marginLeft: "-400px",
           color: "white"
-        }}>{header}</header>
-        <main>{children}</main>
+        }}>{header}
+        </header>
+        <main>{children}<div className="whatsNew"><p><a href="/decade-in-review">My Decade In Music (2010-2019)</a></p></div></main>
         <footer>
           © {new Date().getFullYear()}
         </footer>
