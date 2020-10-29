@@ -32,7 +32,7 @@ class Layout extends React.Component {
         </h1>
       )
       subchildren = (
-        <div className="whatsNew"><p><a href="/decade-in-review">My Decade In Music (2010-2019)</a></p></div>
+        <div className="whatsNew"></div>
       )
     } else {
       subchildren = (<span></span>)
@@ -68,7 +68,7 @@ class Layout extends React.Component {
       >
         <header style={{
           position: "absolute",
-          top: '100px',
+          top: '40px',
           zIndex: '2',
           display: "inline-block",
           backgroundColor: "rgba(0,0,0,.6)",

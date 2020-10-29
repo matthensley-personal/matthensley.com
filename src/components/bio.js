@@ -51,7 +51,7 @@ const Bio = () => {
         }}
       />
       <p>
-        Created by <strong>{author}</strong> who is trying.
+        Created by <strong>{author}</strong>, who is trying.
         {` `}
         <a href={`https://twitter.com/kindaintense`}>
           You should follow him on Twitter
