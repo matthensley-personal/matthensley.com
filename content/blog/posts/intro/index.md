@@ -1,6 +1,6 @@
 ---
 title: Intro
-date: "2020-10-31T22:12:03.284Z"
+date: "2020-10-28T22:12:03.284Z"
 description: "Introduction"
 banner: "./open-road.jpg"
 ---

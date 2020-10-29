@@ -29,6 +29,8 @@ class BlogPostTemplate extends React.Component {
         <header style={{
           maxWidth: 1080,
           margin: `auto`,
+          paddingLeft: 30,
+          paddingRight: 30
         }}><h1
           style={{
             marginTop: rhythm(1),
@@ -57,6 +59,8 @@ class BlogPostTemplate extends React.Component {
           maxWidth: 800,
           margin: `auto`,
           paddingTop: 100,
+          paddingLeft: 30,
+          paddingRight: 30
         }}
         >
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -122,7 +126,7 @@ export const pageQuery = graphql`
         description
         banner {
           childImageSharp {
-            fluid {
+            fluid(maxWidth: 2500) {
               ...GatsbyImageSharpFluid
             }
           }

@@ -34,28 +34,31 @@ class HomeIndex extends React.Component {
         <div style={{
             position:`relative`,
             display:`flex`,
-            flexWrap: `wrap`
+            flexWrap: `wrap`,
+            flexDirection: `column`,
+            alignItems: `flex-end`,
         }}
         >
           <div style={{
-
+            paddingRight: 80
           }}
         >
           <h4>Blog</h4>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
-              <span>
+              <div>
                     <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                       {title}
                     </Link>
-                  <small>{node.frontmatter.date}</small>
 
-              </span>
+              </div>
             )
           })}
           <h4>Features</h4>
-          <a href="/decade-in-review">My Decade In Music (2010-2019)</a>
+          <Link style={{ boxShadow: `none` }} to="/decade-in-review">
+            My Decade In Music (2010-2019)
+          </Link>
           </div>
         </div>
       </Layout>
@@ -80,7 +83,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }) {
       edges {
         node {
           excerpt
