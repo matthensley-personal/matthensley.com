@@ -14,6 +14,7 @@ class HomeIndex extends React.Component {
         <SEO title="Matt Hensley | Nostradamus es su stradamus" />
         <Image
           fixed={data.background.childImageSharp.fluid}
+          className="home-background-image"
           style={{
             position: "absolute",
             left: 0,
@@ -31,7 +32,7 @@ class HomeIndex extends React.Component {
         }}><
         /div>
 
-        <div style={{
+        <div className="toc" style={{
             position:`relative`,
             display:`flex`,
             flexWrap: `wrap`,
@@ -39,7 +40,7 @@ class HomeIndex extends React.Component {
             alignItems: `flex-end`,
         }}
         >
-          <div style={{
+          <div className="toc_inner" style={{
             paddingRight: 80
           }}
         >
@@ -55,6 +56,9 @@ class HomeIndex extends React.Component {
               </div>
             )
           })}
+          <div>
+            October 2020 (Coming Soon)
+          </div>
           <h4>Features</h4>
           <Link style={{ boxShadow: `none` }} to="/decade-in-review">
             My Decade In Music (2010-2019)
@@ -83,7 +87,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC,}, filter: {frontmatter: { published: {eq: true} }}) {
       edges {
         node {
           excerpt

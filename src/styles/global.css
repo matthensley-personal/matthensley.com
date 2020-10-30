@@ -1,7 +1,7 @@
 
 body {
     /*background: linear-gradient(55deg, #90afc5 0%, #336b87 15%, #90afc5 35%, #336b87 50%, #90afc5 65%, #336b87 85%);*/
-    background-color: #9CC3D5FF;
+    /*background-color: #9CC3D5FF;*/
 }
 
 .whatsNew {
@@ -11,7 +11,7 @@ body {
   padding-top:200px;
 }
 .fakelink {
-  color: white;
+  color: black;
   cursor: pointer;
 }
 
@@ -40,7 +40,7 @@ h1,h2,h3 {
 }
 
 h3 a {
-  color:white;
+  color:black;
 }
 
 .yearlist li {
@@ -162,6 +162,10 @@ p.closing a {
 
 @media(max-width: 992px) {
 
+  .home-background-image {
+    opacity: .2;
+  }
+
   .modalContent {
     flex-wrap: wrap-reverse;
   }
@@ -180,6 +184,10 @@ p.closing a {
   .artistThumb  {
     width: 50%;
     padding-bottom: 50%;
+  }
+
+  .toc {
+    padding-top:100px;
   }
 
   .playlist {

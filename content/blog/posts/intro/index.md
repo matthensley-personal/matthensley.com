@@ -3,6 +3,7 @@ title: Intro
 date: "2020-10-28T22:12:03.284Z"
 description: "Introduction"
 banner: "./open-road.jpg"
+published: true
 ---
 
 I’m writing this with less than a week to go before Election Day, 2020. I wanted to get this first one out before, before whatever happens happens and consumes us all. So hello and welcome to whatever this is and I hope it finds you well.
@@ -13,4 +14,4 @@ But finally after a year or two of absence, I’ve moved on and created a new, b
 
 The intention (which may shift) is to cap off each month with a brief thought or two and then catalog the things I’m reading, listening to, watching etc for anyone who is interested and for myself in retrospect. I think it will have a positive effect on my awareness throughout the month of what I am enjoying and hopefully at some point lead to meaningful interactions with you, my esteemed readers.
 
-<h4>Ok, that's enough.</h4>
+####Ok, that's enough.####
