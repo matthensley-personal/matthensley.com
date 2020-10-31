@@ -56,9 +56,6 @@ class HomeIndex extends React.Component {
               </div>
             )
           })}
-          <div>
-            October 2020 (Coming Soon)
-          </div>
           <h4>Features</h4>
           <Link style={{ boxShadow: `none` }} to="/decade-in-review">
             My Decade In Music (2010-2019)
