@@ -4,6 +4,8 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Image from "gatsby-image"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitterSquare, faInstagramSquare, faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
 
 class HomeIndex extends React.Component {
   render() {
@@ -60,8 +62,26 @@ class HomeIndex extends React.Component {
           <Link style={{ boxShadow: `none` }} to="/decade-in-review">
             My Decade In Music (2010-2019)
           </Link>
+
           </div>
+
         </div>
+      <div className="social-links" style={{
+        position: 'absolute',
+        bottom:30,
+        left:30,
+      }}>
+      <a href="https://www.twitter.com/kindaintense" target="_blank" style={{
+        boxShadow: 'none'
+      }}>
+        <FontAwesomeIcon style={{color:"#9CC3D5FF", paddingRight: 20}} size="4x" icon={faTwitterSquare} />
+      </a>
+      <a href="https://www.instagram.com/matthensley" target="_blank" style={{
+        boxShadow: 'none'
+      }}>
+        <FontAwesomeIcon style={{color:"#9CC3D5FF", paddingRight: 20}} size="4x" icon={faInstagramSquare} />
+      </a>
+      </div>
       </Layout>
     )
   }
