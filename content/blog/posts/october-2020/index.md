@@ -47,15 +47,15 @@ October is traditionally a huge release and tour month, and while clearly tours 
 
 #####The Mountain Goats - Getting Into Knives#####
 Hot damn, this was a pleasant surprise. I've been a fan of these guys for almost 20 years now, and as their sound has evolved and expanded, sometimes it's a real win for me and sometimes I'm just happy they're still out there. I felt like last year's *In League With Dragons* was a bit of a return to form after a couple of ones that didn't really grab me, and the surprise (cassette!) release this spring was fun but my only tape player is in my car and I ain't drivin much. When I saw they had ANOTHER album coming out this fall, I pre-ordered immediately because that's how I roll, but didn't really have expectations one way or another. But it rules! It feels spiritually similar to *Transcendental Youth*, which has become one of my favorites of theirs. High recommend if you've been into anything of theirs post-*Sunset Tree*.
-<iframe src="https://open.spotify.com/embed/album/3hmzJ6czCNKNiSdRvFGToy" width="800" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/album/3hmzJ6czCNKNiSdRvFGToy" width="600" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 #####Mary Lattimore - Silver Ladders#####
 There aren't very many harpists I can name, especially now that Joanna Newsom dropped off the scene, so Mary Lattimore is almost certainly the best one going right now. She has shown up on some solid releases over the last few years (2018's "Ghost Forests" was rad), and has a bit part in an album I nearly dedicated space to here (*North Americans - Roped In*, I'm listening to it while I write this post, check it out), but this new one is my favorite thing she's done. It's a little somber and moody at times, but never too unsettling- simultaneously the type of thing you can intently listen to or just put on repeat and get some work done.
-<iframe src="https://open.spotify.com/embed/album/5ROFj16TsmnCUd5YtiVDU3" width="800" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/album/5ROFj16TsmnCUd5YtiVDU3" width="600" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 #####Cut Worms - Nobody Lives Here Anymore#####
 I don't need to repeat conversations that you can find anywhere this album is discussed, but I do think that the extent to which this album gets described as sounding like it's from the 60's does it a bit of a disservice. The touchstones (touch tones? touchtones?) are obvious, but this is a truly incredible (double!) album of warm, hook-filled pop that feels genuine and genius and you could do a lot worse than putting in on on a Sunday morning with a cup of coffee.
-<iframe src="https://open.spotify.com/embed/album/1GvCetmOWQbkkmG6fpXWgu" width="800" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/album/1GvCetmOWQbkkmG6fpXWgu" width="600" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 
 #####10 Songs I Enjoyed This Month#####

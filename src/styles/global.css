@@ -53,7 +53,7 @@ p.closing {
 }
 
 p.closing a {
-  color:white;
+  color:black;
 }
 
 .yearLabelWrapper {
@@ -196,6 +196,17 @@ p.closing a {
 
   .yearData iframe {
     max-width:100%!important;
+  }
+
+  header {
+    overflow:auto;
+  }
+
+  .headerwrapper header h1 {
+    font-size:2rem;
+    max-width:50%;
+
+    float:right;
   }
 }
 

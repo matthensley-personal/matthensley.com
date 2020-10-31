@@ -81,6 +81,7 @@ class Layout extends React.Component {
         }}>{header}
         </header>
         <main>{children}{subchildren}</main>
+        <div class="social"></div>
         <footer>
           © {new Date().getFullYear()}
         </footer>

@@ -39,17 +39,6 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.title}
         </h1>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: `block`,
-            marginBottom: rhythm(1),
-            color: `white`,
-            textShadow: `0px 0px 5px #444`
-          }}
-        >
-          {post.frontmatter.date}
-        </p>
         </header></div>
         <div style={{
           backgroundColor: `white`,
@@ -58,7 +47,7 @@ class BlogPostTemplate extends React.Component {
         style={{
           maxWidth: 800,
           margin: `auto`,
-          paddingTop: 100,
+          paddingTop: 30,
           paddingLeft: 30,
           paddingRight: 30
         }}
