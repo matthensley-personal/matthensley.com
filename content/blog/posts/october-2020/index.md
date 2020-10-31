@@ -4,7 +4,7 @@ date: "2020-10-31T23:46:37.121Z"
 banner: "./halloween.jpg"
 published: true
 featured: "./tdc.jpg"
-description: The first of these monthly recaps- in which I wax poetic about Perth, Svalbard, and the pitfalls of nostalgia. Also Dune, and some new albums to check out.
+description: The first of these monthly recaps- in which I wax poetic about Perth, Svalbard, and the pitfalls of nostalgia. Also Dune, and some new music.
 ---
 #Everybody Knows This is Nowhere#
 I love to read Wikipedia pages about moderately sized communities that live in states of isolation. I think about Perth a lot for some reason. I’ve never been to Australia and don’t really know anything about it, but the physical location of Perth is fascinating to me. It’s in the middle of nowhere, across a barren continent on one side from all other significant population centers and across vast seas from everywhere else, but it has hospitals, universities, all of the things that make a modern city.
@@ -55,11 +55,11 @@ There aren't very many harpists I can name, especially now that Joanna Newsom dr
 <iframe src="https://open.spotify.com/embed/album/5ROFj16TsmnCUd5YtiVDU3" width="600" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 #####Cut Worms - Nobody Lives Here Anymore#####
-I don't need to repeat conversations that you can find anywhere this album is discussed, but I do think that the extent to which this album gets described as sounding like it's from the 60's does it a bit of a disservice. The touchstones (touch tones? touchtones?) are obvious, but this is a truly incredible (double!) album of warm, hook-filled pop that feels genuine and genius and you could do a lot worse than putting in on on a Sunday morning with a cup of coffee.
+My first instinct in describing this album immediately does it a disservice- the word "pastiche" to me carries a weight of imitation or falseness, where this is genuine and lovely and just happens to sound heavily influenced by jangly 60's guitar pop. A truly incredible (double!) album, you could do a lot worse than putting in on on a Sunday morning with a cup of coffee.
 <iframe src="https://open.spotify.com/embed/album/1GvCetmOWQbkkmG6fpXWgu" width="600" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 
-#####10 Songs I Enjoyed This Month#####
+#####10 Songs I Listened To A Lot This Month#####
 <iframe src="https://open.spotify.com/embed/playlist/6kFzFz9HVlnL1SKQC279Qs" width="600" height="380" frameborder="0" allowtransparency="true" style="margin:auto;" allow="encrypted-media"></iframe>
 
 

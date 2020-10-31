@@ -3,6 +3,7 @@ title: Intro
 date: "2020-10-28T22:12:03.284Z"
 description: "Introduction"
 banner: "./open-road.jpg"
+featured: "./open-road.jpg"
 published: true
 ---
 
