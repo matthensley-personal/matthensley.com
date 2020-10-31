@@ -5,11 +5,15 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
+    const image = post.frontmatter.image
+      ? post.frontmatter.image.childImageSharp.resize.src
+      : null
     const { previous, next } = this.props.pageContext
 
     return (
@@ -17,6 +21,8 @@ class BlogPostTemplate extends React.Component {
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
+          image={image}
+          pathname={this.props.location.pathname}
         />
         <div className="headerwrapper" style={{
           backgroundSize: 'cover',
@@ -113,6 +119,15 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        image: featured {
+          childImageSharp {
+            resize(width: 1200) {
+              src
+              height
+              width
+            }
+          }
+        }
         banner {
           childImageSharp {
             fluid(maxWidth: 2500) {

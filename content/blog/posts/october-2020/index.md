@@ -3,6 +3,7 @@ title: October 2020
 date: "2020-10-31T23:46:37.121Z"
 banner: "./halloween.jpg"
 published: true
+featured: "./tdc.jpg"
 description: The first of these monthly recaps- in which I wax poetic about Perth, Svalbard, and the pitfalls of nostalgia. Also Dune, and some new albums to check out.
 ---
 #Everybody Knows This is Nowhere#
