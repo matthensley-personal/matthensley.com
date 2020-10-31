@@ -53,7 +53,7 @@ const Bio = () => {
       <p>
         Created by <strong>{author}</strong>, who is trying.
         {` `}
-        <a href={`https://twitter.com/kindaintense`}>
+        <a target="_blank" href={`https://twitter.com/kindaintense`}>
           You can follow him on Twitter.
         </a>
       </p>
