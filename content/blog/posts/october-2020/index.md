@@ -3,7 +3,7 @@ title: October 2020
 date: "2020-10-31T23:46:37.121Z"
 banner: "./halloween.jpg"
 published: true
-description: The first of these monthly recaps- in which I was poetic about Perth, Svalbard, and the pitfalls of nostalgia. Also Dune, and some new albums to check out.
+description: The first of these monthly recaps- in which I wax poetic about Perth, Svalbard, and the pitfalls of nostalgia. Also Dune, and some new albums to check out.
 ---
 #Everybody Knows This is Nowhere#
 I love to read Wikipedia pages about moderately sized communities that live in states of isolation. I think about Perth a lot for some reason. I’ve never been to Australia and don’t really know anything about it, but the physical location of Perth is fascinating to me. It’s in the middle of nowhere, across a barren continent on one side from all other significant population centers and across vast seas from everywhere else, but it has hospitals, universities, all of the things that make a modern city.
