@@ -46,18 +46,6 @@ class HomeIndex extends React.Component {
             paddingRight: 80
           }}
         >
-          <h4>Blog</h4>
-          {posts.map(({ node }) => {
-            const title = node.frontmatter.title || node.fields.slug
-            return (
-              <div>
-                    <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                      {title}
-                    </Link>
-
-              </div>
-            )
-          })}
           <h4>Features</h4>
           <Link style={{ boxShadow: `none` }} to="/decade-in-review">
             My Decade In Music (2010-2019)
